@@ -1,0 +1,47 @@
+.header-text
+{
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    font-size: 45px;
+    font-family: cursive;
+    font-weight: bolder;
+    background-color: aquamarine;
+    text-align: center;
+    padding-left: 0px;
+    padding-top: 0px;
+    top: 0px;
+
+
+}
+.container
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box
+{
+    border: solid 0px rgb(92, 74, 74);
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px black ;
+    display: flex;
+
+}
+.main-container
+{
+    margin-top: 100px;
+}
+img 
+{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    transition: all 3s;
+
+}
+img:hover
+{
+    transform: scale(1.2);
+}

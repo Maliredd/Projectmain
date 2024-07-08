@@ -1,0 +1,113 @@
+body{
+    background-color:#a36b21ff;
+    margin: 0;
+#bar{
+        position: fixed;
+       font-size: 2rem;
+        width: 100%;
+        padding-bottom: 1%;
+        text-align: end;
+        top: 0;
+        left: 0;
+        background-color:blue;
+        padding-top: 1%;
+    }
+.navlink{
+        text-decoration: none;
+        margin-left: 3%;
+        color: yellowgreen;
+    
+        
+    }
+}
+#welcome-section{
+    background-image: url(./IMG20221016161326.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.heading{
+    font-size: 3.5rem;
+    text-align: center;
+    padding-top: 20%;
+    color: white;
+
+    
+}
+.heading3{
+    font-size: 2rem;
+    text-align: center;
+    margin-left: 12%;
+    color: white;
+    
+}
+#header-text
+{
+   
+    height: 60px;
+    width: 100%;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bolder;
+    background-color: aquamarine;
+    text-align: center;
+    padding-left: 0px;
+    padding-top: 0px;
+    top: 0px;
+
+
+}
+.container
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box
+{
+    border: solid 0px rgb(92, 74, 74);
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px black ;
+    display: flex;
+
+}
+.main-container
+{
+    margin-top: 100px;
+}
+img 
+{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    transition: all 3s;
+
+}
+img:hover
+{
+    transform: scale(1.2);
+}
+#contact{
+    background: linear-gradient(90deg,lightgreen,lightblue,lightblue );
+    padding :5%;
+    font-size: 2rem;
+    text-align: center;
+}
+.contact{
+    margin:10%;
+}
+#contact2{
+    padding:5%;
+    background:grey;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}

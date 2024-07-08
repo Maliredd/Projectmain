@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--
+        <META> TAG IS USED TO WRITE SMALL INFORMATION OF WEB PAGE 
+            ATTRIBUTE:
+            CHARSET="UTF-8"
+            CHARACTER SET OF INFORMATION FORMAT WITH 8 BIT OF SIZE
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         BROWSER WILL COMPATABLE WITH INTERNET EXPLORE EDGE
+         
+
+    -->
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo on forms</title>
+    <style>
+        body{
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <marquee direction="right" scrollamount="10">
+    <h1 style="color:blue">MALLIREDDY VISHNU VARDHAN REDDY</h1>
+    </marquee>
+    <form>
+            <legend  direction="center">LOGIN DETAILS</legend>
+        <label>Name: <sup>*</sup></label>
+        <input type="text" name="fnm" placeholder="Enter First Name" required>
+        
+        <input type="text" name="lnm" placeholder="Enter Last Name">
+        <br><br>
+        <label> Email</label>
+        <input type="text" name="email" placeholder="abc@gmail.com">
+        <br><br>
+        <label>Password</label>
+        <input type="password" name="pswd" placeholder="Enter password">
+        <br><br>
+        <label> Age:</label>
+        <input type="number" name="age" min="0"max="100"
+        placeholder="age">
+        <br><br>
+        <label> Date of Birth</label>
+        <input type="date" name="DOB">
+        <br><br>
+        <label> Time:</label>
+        <input type="time">
+        <br><br>
+        <label>Gender : </label>
+        <input type="radio" name="gen" value="male" id="m" checked>
+        <label for="m">Male</label>
+        <input type="radio" name="gen" value="female" id="f">
+        <label for="f">female</label>
+        <input type="radio" name="gen" value="others" id="o" disabled>
+        <label for="o">others</label>
+        <br><br>
+        <label>language: </label>
+        <input type="checkbox" name="lang" value="english" value="eng" checked>
+        <label for="eng">english</label>
+        <input type="checkbox" name="lang" value="telugu" id="tel">
+        <label for="tel">telugu</label>
+        <input type="checkbox" name="lang" value="hindi" id="hin">
+        <label for="hin">hindi</label>
+        <br><br>
+        <label>places</label>
+        <select name="pla">
+            <option value="blr">Bangalore</option>
+            <option value="pun">pune</option>
+            <option value="mum" selected>Hyderabad</option>
+            <option value="del">delhi</option>
+            <option value="kdp">kadapa</option>
+            <option value="che">chennai</option>
+        </select>
+        <br><br>
+        <label>Comment Box</label>
+        <textarea name="cmnt" placeholder="Comment Box:">
+        </textarea>
+        <br><br>
+        <label>Range</label>
+        <input type="range" name="range">
+        <br><br>
+        <input type="file" name="file">
+        <br><br>
+        <input type="reset">
+        <input type="submit" value="Register">
+        <br><br>
+    </form>
+    
+</body>
+</html>
